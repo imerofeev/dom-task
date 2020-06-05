@@ -1,0 +1,37 @@
+.dropdown {
+  width: 300px;
+}
+
+.search {
+  width: 300px;
+  height: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
+
+.input {
+  width: 270px;
+  height: 15px;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  background: url("../img/btn.png");
+  background-size: 16px;
+}
+
+.combobox {
+  margin-top: 5px;
+  width: 300px;
+  overflow-y: scroll;
+  visibility: hidden;
+  position: relative;
+}
